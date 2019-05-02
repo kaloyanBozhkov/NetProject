@@ -7,8 +7,11 @@ The main idea is that a central system (PrivateINet) can send commands to a devi
   
 <h3>Written in C#</h3>
 <h4>Sending a command</h4>
+
 ![alt text](https://raw.githubusercontent.com/kaloyanBozhkov/NetProject/master/SendCommandExample.jpg)
 
 <h4>Receiving a command</h4>
+
 ![alt text](https://raw.githubusercontent.com/kaloyanBozhkov/NetProject/master/ExampleOfManufacturerDeviceReceivingPackets.png)
+
 </p>
