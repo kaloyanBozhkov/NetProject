@@ -1,7 +1,9 @@
 ![alt text](https://raw.githubusercontent.com/kaloyanBozhkov/NetProject/master/LogicMap.jpg)
 
-<h1>NET CORE 3.0 PROJECT</h1>
-<p>This was my part of a group project developped for a module at university.
+<h1>GROUP PROJECT</h1>
+<p>This was my contribution to a group project during the second year in university.
 <br/>
-The main idea is that a central system (PrivateINet) can send commands to a device (ManufacturerDevice) on the ethernet physical layer (ISO/OSI). The central system is controlled through master commands sent as UDP packets through localhost. The fun part of this project was playing around with UDP packets going through a port on localhsot as well as sending Ethernet packets through a specific network interface controlled with the Pcap.Net library.  
+The main idea is that a central system (PrivateINet) can send commands to a device (ManufacturerDevice) on the ethernet physical layer (ISO/OSI). The central system is controlled entirely through master commands sent as UDP packets through localhost (SendUdpPacketsToPort). The fun part of this project was playing around with UDP packets going through a port on localhsot as well as sending and reading Ethernet packets travelling between two specific network interfaces on the physical layer, controlled with the Pcap.Net library.  
+  
+<h3>Written in C#</h3>
 </p>
